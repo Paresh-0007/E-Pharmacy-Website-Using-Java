@@ -1,1 +1,4 @@
 # Second_Year_Mini_Project
+HELLO VISITERS,
+
+WELCOME TO E PHARMACY
