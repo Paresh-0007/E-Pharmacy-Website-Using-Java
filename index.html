@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    <script>
+        // Function to fetch and insert header
+        function includeHeader() {
+            fetch('workspace-sts-3.9.12.RELEASE/JavaWebApplication/src/main/webapp/jsp/Home.jsp')
+                .then(response => response.text())
+                .then(html => {
+                    document.getElementById('header').innerHTML = html;
+                });
+        }
+
+        // Call the functions to include header and footer
+        includeHeader()
+    </script>
+</body>
+</html>
